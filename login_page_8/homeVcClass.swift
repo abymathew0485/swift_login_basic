@@ -7,7 +7,7 @@
 
 import UIKit
 
-class homeVcClass: UIViewController {
+class homeVcClass: UIViewController { //TODO: Use capital letter naming for classes
 
     @IBOutlet weak var logoutBtn: UIButton!
     
