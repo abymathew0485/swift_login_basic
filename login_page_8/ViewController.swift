@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var fldPass: UITextField!
     @IBOutlet weak var fldUserName: UITextField!
     @IBOutlet weak var loginBtn: UIButton!
-    @IBOutlet weak var UserLabel: UILabel!
+    @IBOutlet weak var UserLabel: UILabel! //TODO: EITHER USE 'userLabel or userLbl' try to keep a consistance in naming.
     @IBOutlet weak var passLbl: UILabel!
     override func viewDidLoad() {
         loginBtn.layer.cornerRadius = 10
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
    
     
-    @IBAction func LoginBtn(_ sender: Any) {
+    @IBAction func LoginBtn(_ sender: Any) { //TODO: USE CAMEL CASE LETTERING FOR METHODS.
         UserLabel.isHidden = true
         passLbl.isHidden = true
        

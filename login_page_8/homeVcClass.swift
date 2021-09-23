@@ -7,14 +7,14 @@
 
 import UIKit
 
-class homeVcClass: UIViewController {
+class homeVcClass: UIViewController { //TODO: USE CAPITAL LETTER FOR CLASS NAME
 
     @IBOutlet weak var logoutBtn: UIButton!
     
     @IBOutlet weak var imageView: UIImageView!
     
     @IBOutlet weak var refreshBtn: UIButton!
-    var random  = 2
+    var random  = 2 //TODO: USE PROPER NAME FOR VARIABLE USE CASE. HERE YOU CAN USE "stepperCount or incrementCount" BCZ IT'S NOT A RANDOM NUMBER.
     override func viewDidLoad() {
        
         super.viewDidLoad()
